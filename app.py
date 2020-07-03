@@ -15,7 +15,8 @@ import numpy as np
 from datetime import datetime as dt
 import plotly.express as px
 
-app = JupyterDash(__name__)
+app = dash.Dash(__name__)
+server = app.server
 
 
 # In[3]:
@@ -404,7 +405,8 @@ def update_map(start_date, end_date, input_days, input_acc_sev, input_speed_limi
 # In[11]:
 
 
-app.run_server(mode="jupyterlab", port=9999)
+if __name__ == '__main__':
+    app.run_server(debug=True)
 
 
 # In[ ]:
