@@ -1,0 +1,1 @@
+The licence for datasets 'acc_2016.csv', 'acc_2017.csv', and 'acc_2018.csv' is the [Open Government Licence](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
